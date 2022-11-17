@@ -6,7 +6,7 @@ const iPhone = devices['iPhone 11'];
     const context = await browser.newContext({
         ...iPhone,
         permissions: ['geolocation'],
-        geolocation: {latitude: 54.72442, longitude: 28.07447},
+        geolocation: {latitude: 53.88397, longitude: 27.53874},
         locale: 'by-BY'
     });
     const page = await context.newPage();
