@@ -1,1 +1,1 @@
-git commit -m "Updated the .gitignore file"
+**/node_modules
