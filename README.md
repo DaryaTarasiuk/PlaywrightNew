@@ -16,12 +16,15 @@ This repo contains simple tests, every test has its owm branch:
 - video branch: Recording videos
 - bookstore branch: Integration with Jest and creating Page Object Model
 - cli branch: Playwright CLI
+
+## Pre-requisites
+[NodeJS](https://nodejs.org/en/)
+
+[Applitools API key](https://auth.applitools.com/users/register)
+
 ## Installation
 
 In order to install Playwright, we need first to have installed Node.js. So, make sure you have it installed in your system.
-
-Also, we'll be using an IDE, in my case, I'll be using Visual Studio Code.
-After you have it both installed, open or launch Visual Studio Code.
 Now, we will install Playwright using npm. 
 
 To do that, we can go to Terminal > New Terminal, and  type
@@ -35,34 +38,27 @@ Then we can install Playwright. To do that, we'll just need to type
   npm i -D playwright
 ```
 It finishes installing all the packages, you should see the “node_modules” folder created here. And also package.json, we should see the “devDependencies”, and “playwright”, which is what we just installed.
-## Pre-requisites
-[NodeJS](https://nodejs.org/en/)
 
-[Visual Studio Code](https://code.visualstudio.com/)
-
-[Applitools API key](https://auth.applitools.com/users/register)
-
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  node fileName.js
-```
-
-## Integrate with Jest
 Integrate Jest with Playwright in order to run tests. Jest is JavaScript testing framework with a focus on simplicity. Jest offers a test runner, assertion library, CLI tool, and great support for different mocking techniques.
 
 Install Jest using npm:
 ```bash
   npm install -D jest
 ```
+
+## Running Tests
+
+In order to run test, execute the following command
+
+```bash
+  node fileName.js
+```
 In order to running tests with Jest, type 
 
 ```bash
   npm test
 ```
+
 ## Features
 
 - This framework has built in library to operate on UI, API (both SOAP & REST API) and DB (MSSQL, DB2 & Oracle).
