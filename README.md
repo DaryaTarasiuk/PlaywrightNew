@@ -18,8 +18,10 @@ This repo contains simple tests, every test has its owm branch:
 - cli branch: Playwright CLI
 
 ## Pre-requisites
+Node JS instalation. Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a web browser.
 [NodeJS](https://nodejs.org/en/)
 
+In order to run some tests from PlaywrightNew project you should create account in applitools
 [Applitools API key](https://auth.applitools.com/users/register)
 
 ## Installation
